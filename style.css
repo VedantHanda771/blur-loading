@@ -1,0 +1,51 @@
+
+
+
+.imageBox{
+    filter: blur(30px);
+}
+
+/* Customize the progress bar appearance */
+.progress {
+    height: 20px;
+    width: 90%; /* Adjust height as needed */
+    background-color: transparent; /* Background color */
+    position: relative;
+    bottom: -1rem;
+    left: 1.5rem;
+  }
+  
+  .progress-bar {
+     /* Bar color */
+    color: black; /* Text color */
+    text-align: center; /* Center text */
+    border-radius: 24px;
+    font-family:monospace; /* Bold text */
+    font-weight: bold;
+    font-size:large;
+    transition: width 0.5s ease; /*Smooth transition*/
+    
+  }
+
+
+
+  .btn{
+    transition: all ease-in-out 300ms;
+    
+  }
+
+  .holder{
+    box-shadow: 10px 12px 12px #ffff;
+    animation-duration:  1s;
+  }
+
+  
+  
+  .btn:hover {
+    box-shadow: 0px 25px 18px -18px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translate(0px, -10px) scale(1.2);
+            transform: translate(0px, -10px) scale(1.2);
+  }
+  
+
+
