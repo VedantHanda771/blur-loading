@@ -2,7 +2,6 @@
 
 https://blur-loading-nine.vercel.app/
 
-![image](https://github.com/VedantHanda771/blur-loading/assets/122337658/23aaac6a-86bd-40ef-9f4e-3a064f731d51)
+![image](https://github.com/VedantHanda771/blur-loading/assets/122337658/fa215b4b-89e7-4f00-89ca-c2b0631a78f3)
 
-![image](https://github.com/VedantHanda771/blur-loading/assets/122337658/fac3913c-3c37-4406-b765-01a296343837)
-
+![image](https://github.com/VedantHanda771/blur-loading/assets/122337658/1a2ac455-549e-4922-81fe-f0c79650553d)
