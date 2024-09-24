@@ -52,14 +52,17 @@ button.addEventListener("click", updateProgressBar);
 
 
 function displayRandomImage() {
-  fetch('https://source.unsplash.com/featured/1600x900/?landscape')
-    .then(response => {
-      const imageUrl = response.url;
+  const accessKey = 'UzuKj-rE_tg8o8CX9jEm0hOp2aQwjZZwJq84uoPdz70'; // Replace with your actual access key
+  fetch(`https://api.unsplash.com/photos/random?query=landscape&client_id=${accessKey}`)
+    .then(response => response.json())
+    .then(data => {
+      const imageUrl = data.urls.regular; // Get the URL of the image
       const imageElement = document.getElementById('myImage');
-      imageElement.src = imageUrl;
+      imageElement.src = imageUrl; // Set the image source to the fetched URL
     })
     .catch(error => console.error('Error fetching image:', error));
 }
+
 
 window.onload = displayRandomImage();
 
